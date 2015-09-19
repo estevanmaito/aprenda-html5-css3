@@ -1,3 +1,5 @@
+Este guia é parte do curso APRENDA HTML5 & CSS3 e está relacionado ao vídeo [APRENDA HTML5 & CSS3 - #3 CSS]()
+
 #Guia básico de CSS3
 
 Além de um introdução CSS3, este guia pretende mostrar como criar um site responsivo, ou seja, que se adapte a qualquer dispositivo.
@@ -9,7 +11,7 @@ O objetivo deste guia não é esgotar o conteúdo proposto (CSS e CSS3), e sim a
 Animações, transições e outras interações mais complexas virão em um próximo guia, acompanhadas de um vídeo no canal.
 
 ##Público alvo deste guia
-Pessoas que estão iniciando o aprendizado de tecnologias para desenvolvimento web, desenvolvedores que queiram atualizar seus conhecimentos em CSS3 e design responsivo e quem mais estiver curioso sobre como funciona um site “por baixo do capô”. É aconselhável conhecimento básico em HTML, que pode ser adquirido aqui e um entendimento mínimo de inglês.
+Pessoas que estão iniciando o aprendizado de tecnologias para desenvolvimento web, desenvolvedores que queiram atualizar seus conhecimentos em CSS3 e design responsivo e quem mais estiver curioso sobre como funciona um site “por baixo do capô”. É aconselhável conhecimento básico em HTML, que pode ser adquirido [aqui](https://www.youtube.com/watch?v=T65y3oj9s50) e um entendimento mínimo de inglês.
 
 ##O que veremos
 Como criar o estilo de um site responsivo, utilizando o máximo possível das últimas especificações do CSS3, com muito flexbox e nada de floats.
@@ -122,7 +124,7 @@ CSS:
 ```
 
 ####Descendentes
-Cada espaço separa os elementos e vai aprofundando os elementos selecionados. Lemos da direita para a esquerda. O último exemplo abaixo significa que queremos pintar de vermelho os elementos a (link) dentro dos li (listas).
+Cada espaço separa os elementos e vai aprofundando os elementos selecionados. Lemos da direita para a esquerda. O último exemplo abaixo significa que queremos pintar de vermelho os elementos ```a``` (link) dentro dos ```li``` (listas).
 
 Exemplos:
 ```css
@@ -140,7 +142,7 @@ Agora que já sabemos como selecionar um elemento específico no HTML, vamos às
 
 ###Regras de estilo mais comuns
 
-Antes, uma passada em dois conceitos muito importantes no design responsivo.
+Antes, uma passada num conceito muito importante no desgin responsivo: unidades de medida.
 
 ####Diferença entre EM, REM, % e PX
 
@@ -174,15 +176,6 @@ A porcentagem aqui é o que todos já sabem. Nosso elemento vai se expandir e co
 
 Não veremos aqui ainda, mas saiba que existem outras medidas muito importantes também, como o vh, vw, vmin, vmax.
 
-###Box model
-
-**No CSS, todos elementos são caixas.**
-
-![THAT'S ALL FOLKS. HAVE A NICE DAY.](http://assets.diylol.com/hfs/563/d00/a06/resized/serious-cat-meme-generator-that-s-all-folks-have-a-nice-day-c548d7.jpg)
-
-Pronto, vamos todos pra casa. Só mais essa imagem e tudo ficará mais claro ainda. 
-
-![Ilustração do box model. Margin, border, padding e content.](http://www.kuahla.com/learnhtml/images/boxmodel.gif)
 
 
 
